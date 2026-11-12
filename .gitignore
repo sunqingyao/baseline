@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+nohup.out
+logs/
+
+# Training outputs
+output/
+SPOT-1D-LM/results/
+
+# SPOT-1D-LM input data
+SPOT-1D-LM/inputs/
+
+# Pretrained model checkpoints
+SPOT-1D-LM/checkpoints/
+SPOT-1D-LM/spot_1d_lm/checkpoints/
+
+# Large structural feature data
+SPOT-1D-LM/spot_1d_lm/fasta/
+SPOT-1D-LM/spot_1d_lm/dssp/
+SPOT-1D-LM/spot_1d_lm/theta/
+SPOT-1D-LM/spot_1d_lm/hse/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.xz
+
+# Temporary files
+*.tmp
+*.swp
+records/

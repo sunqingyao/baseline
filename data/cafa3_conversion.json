@@ -1,0 +1,55 @@
+{
+  "dataset": "CAFA3",
+  "source": "D:\\行都行一定行\\汇报\\实验设计\\data\\CAFA3",
+  "split_policy": "preserved",
+  "term_policy": "preserve supplied vocabulary and order",
+  "terms": {
+    "MF": 677,
+    "BP": 3992,
+    "CC": 551
+  },
+  "splits": {
+    "train": {
+      "proteins": 53143,
+      "labeled": {
+        "MF": 28679,
+        "BP": 42250,
+        "CC": 39893
+      },
+      "min_length": 16,
+      "max_length": 1000
+    },
+    "valid": {
+      "proteins": 5934,
+      "labeled": {
+        "MF": 3228,
+        "BP": 4748,
+        "CC": 4510
+      },
+      "min_length": 16,
+      "max_length": 1000
+    },
+    "test": {
+      "proteins": 3035,
+      "labeled": {
+        "MF": 1035,
+        "BP": 2185,
+        "CC": 1117
+      },
+      "min_length": 24,
+      "max_length": 999
+    }
+  },
+  "identical_sequences_between_splits": {
+    "train/valid": 129,
+    "train/test": 1555,
+    "valid/test": 184
+  },
+  "output_sha256": {
+    "train.fasta": "2e6031b2b6114564a08bf839123081d685ad5ffd519d8efd5227a62f18040c7e",
+    "valid.fasta": "8dfab6a8386efcd0e0f4e366ef560fcfe1b058c35ad5e796d0534e1271ee08eb",
+    "test.fasta": "275ec4d02678cd11fde069d07679c157a47abbfbcb7e77a4ea72e160cfb1d1d5",
+    "annotations.csv": "f630ad82642b4850ad5c2ccbdaf62b252fb05083ef95fa71dff9a96422e398d6",
+    "terms.csv": "6636439efe7f3c288cada06251417b7152a48bcae367e338f61685b5029a8fea"
+  }
+}
